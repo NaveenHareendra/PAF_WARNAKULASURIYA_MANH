@@ -1,0 +1,50 @@
+#container{
+	background-color: red;
+	height:100%;
+	width:100%;
+	
+}
+
+body {
+   margin:0;
+   padding:0;
+   font-family:'Raleway', sans-serif;
+   
+}
+
+
+.BodyMain{
+	display:grid;
+	grid-template-rows:auto auto auto;
+}
+
+.divHeader{
+	display:grid;
+	grid-template-rows:auto auto;
+	grid-row:1;
+
+}
+
+.divHeaderOne{
+	
+	display:block;
+    grid-row:1;
+    margin-bottom:30px
+
+}
+
+.divNavbar{
+	display:block;
+    grid-row:2;
+
+}
+.divBody{
+	display:block;
+	grid-row:2;
+}
+
+.divFooter{
+	display:block;
+	grid-row:3;
+}
+
